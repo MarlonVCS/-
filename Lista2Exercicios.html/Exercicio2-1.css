@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(203, 253, 203, 0.726);
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 18px;
+}
+p.tabela{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 2.0;
+    color: rgb(4, 0, 255);
+    border: solid 3px rgb(252, 2, 2);
+    border-radius: 10px;
+    background-color: rgba(52, 177, 27, 0.918);
+
+}

@@ -1,0 +1,29 @@
+table{
+    width: 600px;
+    margin:auto;
+    font-family: Arial 12px;
+    border-collapse: collapse;
+}
+th{
+    background-color: #78b200;
+    color: white;
+    text-align: left ;
+    ;
+}
+td, th {
+    padding: 2px 10px;
+}
+
+.cidade{
+    color:#0D5188;
+
+}
+.QuantPop{
+    width: 90px;
+}
+.Posição{
+    width: 30px;
+}
+.cinza{
+    background-color: rgba(219, 219, 219, 0.849);
+}

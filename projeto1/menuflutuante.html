@@ -1,0 +1,83 @@
+<div class="navbar">
+    <div class="navbar-items">Home</div>
+    <div class="navbar-items">
+        Produtos
+        <div class="navbar-dropdown">
+            <ul>
+                <li>Uramakis</li>
+                <li>Hossomakis</li>
+                <li>Temakis</li>
+                <li>Yakisobas</li>
+            </ul>
+        </div>
+    </div>
+    <div class="navbar-items">
+        Serviços
+        <div class="navbar-dropdown">
+            <ul>
+                <li>Histórico de Pedidos</li>
+                <li>Meus Favoritos</li>
+                <li>contatos</li>
+            </ul>
+        </div>
+    </div>
+        
+    <div class="navbar-items">Quem somos</div>
+</div>
+
+
+<Style>
+    .navbar {
+        display: flex;
+        height: 50px;
+        align-items: center;
+        background-color: antiquewhite;
+    }
+
+    .navbar-items {
+        padding: 10px;
+        background-color: rgb(231, 209, 179);
+        margin-right: 20px;
+        border-radius: 20px;
+
+        position: relative;
+
+
+    }
+
+    .navbar-items:hover {
+        background-color: rgb(211, 179, 134);
+        color: white;
+    }
+    .navbar-items:hover .navbar-dropdown{
+        background-color: antiquewhite;
+        color: black;
+        transform: scale(1);
+    }
+
+    .navbar-dropdown{
+        position: absolute;
+        transform: scale(0);
+        transform-origin: top left;
+        transition: transform 0.4s;
+        top: calc(100% + 6px);
+        box-shadow: 3px 3px 5px 6px #ccc;
+    }
+
+    .navbar-dropdown ul {
+        list-style: none;
+        padding: 0px 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .navbar-dropdown li {
+        padding: 8px 30px;
+    }
+    
+    .navbar-dropdown li:hover {
+        background-color: rgb(211, 179, 134);
+        color: white;
+    }
+    
+</Style>
